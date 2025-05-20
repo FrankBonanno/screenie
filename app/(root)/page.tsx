@@ -1,6 +1,6 @@
 import Header from '@/components/Header';
 
-const Page = () => {
+const HomePage = () => {
 	return (
 		<main className="wrapper page">
 			<Header title="All Videos" subHeader="Public Library" />
@@ -9,4 +9,4 @@ const Page = () => {
 	);
 };
 
-export default Page;
+export default HomePage;
