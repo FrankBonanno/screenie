@@ -38,6 +38,11 @@ const UploadPage = () => {
 				setError('Please fill in all details!');
 				return;
 			}
+
+			// Upload to bunny
+			// Uplaod thumbnail to db
+			// Attach thumbnail
+			// Create a new db entry for video details (urls, thumbnails, data)
 		} catch (error) {
 			console.log('Error submitting form:', error);
 		} finally {
